@@ -23,7 +23,7 @@ To start using this repo:
 3. Configure the virtual environment — with [Poetry installed](https://python-poetry.org/docs/#installing-with-the-official-installer), run the following commands in this repository's root directory:
     ```
     poetry config virtualenvs.in-project true
-    poetry env use python3.10
+    poetry env use python3.11
     poetry install
     ```
     This will install dependencies and configure the environment as specified in [`pyproject.toml`](https://github.com/mdhk/beluga-vocalizations/blob/main/pyproject.toml).
