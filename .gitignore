@@ -1,3 +1,6 @@
+# ignore HPC environment setup
+init-env
+
 # Data & model files
 data/*
 models/*
