@@ -1,5 +1,9 @@
-# ignore HPC environment setup
+# ignore HPC environment setup & job scripts
 init-env
+jobs/*
+
+# Results
+results/*
 
 # Data & model files
 data/*
