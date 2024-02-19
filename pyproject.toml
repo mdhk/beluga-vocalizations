@@ -8,6 +8,10 @@ packages = [{include = "beluga_vocalizations", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+torch = "^2.2.0"
+torchaudio = "^2.2.0"
+librosa = "^0.10.1"
+sox = "^1.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
